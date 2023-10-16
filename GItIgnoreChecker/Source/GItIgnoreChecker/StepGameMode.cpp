@@ -3,3 +3,17 @@
 
 #include "StepGameMode.h"
 
+
+
+AStepGameMode::AStepGameMode()
+{
+
+
+}
+
+void AStepGameMode::BeginPlay()
+{
+	Super::BeginPlay();
+
+	
+}

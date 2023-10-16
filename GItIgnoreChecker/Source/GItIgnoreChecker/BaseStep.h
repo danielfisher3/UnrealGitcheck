@@ -75,6 +75,10 @@ public:
 	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	FString StepName;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString StepTaskDescription;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString StepDescription;
 
@@ -86,6 +90,8 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FStepTask> StepTasks;
+
+	
 
 	
 };

@@ -14,4 +14,18 @@ class GITIGNORECHECKER_API AStepGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+
+protected:
+	virtual void BeginPlay()override;
+
+public:
+	AStepGameMode();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TSubclassOf<AActor> UISpawer;
+
+	UPROPERTY()
+	FTimerHandle TimerHandle;
+
+	
 };
